@@ -6,7 +6,7 @@ using namespace std;
 // Local Variable declaration:
 extern int a, b;
 
-// Definiendo constantes
+// Definiendo constantes 
 #define LENGTH 10   
 #define WIDTH  5
 #define NEWLINE '\n'
