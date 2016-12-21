@@ -18,6 +18,11 @@ int main() {
 	feet distance;
 	cout << "Size of feet : " << sizeof(feet) << endl;
 	
+	enum color { red, green, blue } c;
+	c = blue;
+	
+	cout << "color c:" << c << endl;
+	
 	return 0;
 }
 
