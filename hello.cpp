@@ -3,6 +3,9 @@ using namespace std;
 
 // main() is where program execution begins.
 
+// Variable declaration:
+extern int a, b;
+
 int main() {
 	cout << "Hello World" << endl; // prints Hello World
 	
@@ -22,6 +25,11 @@ int main() {
 	c = blue;
 	
 	cout << "color c:" << c << endl;
+	
+	// Local Variable definition:
+	int a, b;
+	a = 10;
+	b = 20;
 	
 	return 0;
 }
