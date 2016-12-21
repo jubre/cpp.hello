@@ -13,7 +13,11 @@ int main() {
 	cout << "Size of float : " << sizeof(float) << endl;
 	cout << "Size of double : " << sizeof(double) << endl;
 	cout << "Size of wchar_t : " << sizeof(wchar_t) << endl;
-		
+	
+	typedef int feet;
+	feet distance;
+	cout << "Size of feet : " << sizeof(feet) << endl;
+	
 	return 0;
 }
 
