@@ -3,7 +3,7 @@ using namespace std;
 
 // main() is where program execution begins.
 
-// Variable declaration:
+// Local Variable declaration:
 extern int a, b;
 
 int main() {
