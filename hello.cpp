@@ -1,4 +1,7 @@
 #include <iostream>
+#include <ctime>
+#include <cstdlib>
+
 using namespace std;
 
 // function declaration
@@ -69,6 +72,18 @@ int main() {
 	// calling a function to get max value.
 	ret = max(a, b);
    	cout << "Max value is : " << ret << endl;
+	
+	//using random
+	// set the seed
+	srand( (unsigned)time( NULL ) );
+  	
+	/* generate 10  random numbers. */
+	for( i = 0; i < 10; i++ ) {
+		// generate actual random number
+		j = rand();
+		cout <<" Random Number : " << j << endl;
+	}
+	
 	
 	return 0;
 }
