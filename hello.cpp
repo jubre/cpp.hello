@@ -36,6 +36,12 @@ int main() {
 	a = 10;
 	b = 20;
 	
+	// using constants
+	int area;
+	area = LENGTH * WIDTH;
+	cout << area;
+	cout << NEWLINE;
+	
 	return 0;
 }
 
