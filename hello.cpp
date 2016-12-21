@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// main() is where program execution begins.
+// function declaration
+int max(int num1, int num2);
 
 // Global Variable declaration:
 int a, b;
@@ -14,6 +15,7 @@ int count = 10;
 #define WIDTH  5
 #define NEWLINE '\n'
 
+// main() is where program execution begins.
 int main() {
 	cout << "Hello World" << endl; // prints Hello World
 	
@@ -59,6 +61,27 @@ int main() {
 	//count = 5; -- tampoco deja utilizar la variable global
    	// write_extern();
 	
+	// local variable declaration:
+	a = 100;
+	b = 200;
+	int ret;
+
+	// calling a function to get max value.
+	ret = max(a, b);
+   	cout << "Max value is : " << ret << endl;
+	
 	return 0;
+}
+
+int max(int num1, int num2)  {
+   // local variable declaration
+   int result;
+ 
+   if (num1 > num2)
+      result = num1;
+   else
+      result = num2;
+ 
+   return result; 
 }
 
