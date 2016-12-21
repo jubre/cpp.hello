@@ -3,8 +3,11 @@ using namespace std;
 
 // main() is where program execution begins.
 
-// Local Variable declaration:
-extern int a, b;
+// Global Variable declaration:
+int a, b;
+
+int count = 10;
+//extern void write_extern();
 
 // Definiendo constantes  
 #define LENGTH 10   
@@ -44,6 +47,17 @@ int main() {
 	area = LENGTH * WIDTH;
 	cout << area;
 	cout << NEWLINE;
+	
+	// signed and unsigned
+	short int i;           // a signed short integer
+	short unsigned int j;  // an unsigned short integer
+  	j = 50000;
+   	i = j;
+	cout << i << " " << j << endl;	
+	
+	// using extern -- fallo
+	//count = 5; -- tampoco deja utilizar la variable global
+   	// write_extern();
 	
 	return 0;
 }
