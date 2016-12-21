@@ -37,6 +37,9 @@ int main() {
 	b = 20;
 	
 	// using constants
+	const int LENGTH2 = 10;
+	const int WIDTH2  = 5;
+	const char NEWLINE2 = '\n';
 	int area;
 	area = LENGTH * WIDTH;
 	cout << area;
